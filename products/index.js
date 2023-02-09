@@ -6,7 +6,7 @@ app.use(express.json());
 const port = process.env.PORT || 5000
 
 app.get('/', (req, res) => {
-    res.json({ message: 'Hello, World! this hopping' });
+    res.json({ message: 'Hello, World! this products' });
 });
 
 
